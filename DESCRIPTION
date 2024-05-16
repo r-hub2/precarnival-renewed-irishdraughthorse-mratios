@@ -15,5 +15,6 @@ Suggests: nlme
 Imports: mvtnorm, multcomp, survival, survPresmooth, stats
 Description: Performs (simultaneous) inferences for ratios of linear combinations of coefficients in the general linear model, linear mixed model, and for quantiles in a one-way layout. Multiple comparisons and simultaneous confidence interval estimations can be performed for ratios of treatment means in the normal one-way layout with homogeneous and heterogeneous treatment variances, according to Dilba et al. (2007) <https://cran.r-project.org/doc/Rnews/Rnews_2007-1.pdf> and Hasler and Hothorn (2008) <doi:10.1002/bimj.200710466>. Confidence interval estimations for ratios of linear combinations of linear model parameters like in (multiple) slope ratio and parallel line assays can be carried out. Moreover, it is possible to calculate the sample sizes required in comparisons with a control based on relative margins. For the simple two-sample problem, functions for a t-test for ratio-formatted hypotheses and the corresponding confidence interval are provided assuming homogeneous or heterogeneous group variances.
 License: GPL-2
+RoxygenNote: 7.3.1
 NeedsCompilation: no
-Packaged: 2024-05-16 10:08:17 UTC; Schaarschmidt
+Packaged: 2024-05-16 12:20:31 UTC; Schaarschmidt
