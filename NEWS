@@ -1,0 +1,4 @@
+Changes in version 1.4.0 (2018-05-23)
+
+- the function t.test.ratio() has been removed, use ttestratio() instead (this contains the same code as t.test.ratio() did, but is in line with the rules for S3 method definition)
+- bug in the computation of two-sided confidence intervals in sci.ratio(), gsci.ratio() and sci.ratio.gen() has been fixed
